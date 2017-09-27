@@ -297,7 +297,7 @@
       thumbnail.on("click", this.clicked);
       thumbnail.append(image);
       if (this.opts.show_label) {
-        thumbnail.append(jQuery("<p/>").html(this.label()));
+        thumbnail.append(jQuery("<center/>").html(this.label()));
       }
       this.node.append(thumbnail);
       return this.node;
